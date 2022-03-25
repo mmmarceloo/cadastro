@@ -1,0 +1,51 @@
+.relatorio {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  
+  width: 100vw;
+ }
+ .conteiner{
+
+   width: 78vw;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap:20px;
+ }
+form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+form div{
+  display:flex;
+  flex-direction: column;
+}
+ input, label{
+   margin:0 10px 2px 0px ;
+ }
+
+ header{
+   display: flex;
+   }
+ 
+
+  
+
+ table, th, td{
+   border: 1px solid #666;
+   border-collapse: collapse;
+   padding: 15px;
+   margin-top: 40px;
+   
+ }
+
+ tr{
+   width: 300px;
+   height: 50px;
+ }
+
+ 
